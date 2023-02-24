@@ -112,3 +112,30 @@ p {
     
 }
  */
+
+
+.headerFixed{
+    position: fixed;
+    top: -80px;
+    right: 0;
+    left: 0;
+    transform: translateY(80px);
+    transition: all 1s ease-in-out;
+    z-index: 99;
+    box-shadow: 0 8px 8px -4px rgba(33, 34, 34, 0.678);
+    
+}
+body #upTop{
+    background: #ea0000;
+    position: fixed;
+    /* top: 90%; */
+    right: 35px;
+    bottom: 35px;
+    color: #fff;
+    padding: 13px 20px;
+    font-size: 22px;
+    transition: all 1s ease-in-out;
+    z-index: 99;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: none;
+}
